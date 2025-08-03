@@ -46,7 +46,7 @@ graph TD
 | UI Layer | Streamlit, Twilio, WhatsApp | 
 | Cloud Hosting | IBM Cloud, Docker, Podman | 
 | Data Sources | OpenWeatherMap, Agmarknet, FAO datasets | 
-| Programming Lang | Python 3.10+ | 
+| Programming Lang | Python | 
 
 📊 Sample Use Cases
 - Farmer Query: “What’s the best time to irrigate my wheat crop this week?”
