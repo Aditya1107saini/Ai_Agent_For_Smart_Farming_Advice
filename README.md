@@ -48,27 +48,6 @@ graph TD
 | Data Sources | OpenWeatherMap, Agmarknet, FAO datasets | 
 | Programming Lang | Python 3.10+ | 
 
-
-
-📦 Installation Guide
-- Clone the repository
-git clone https://github.com/yourusername/smart-farming-ai-agent.git
-cd smart-farming-ai-agent
-- Install dependencies
-pip install -r requirements.txt
-- Configure credentials Create a config.toml file:
-[deployment]
-watsonx_apikey = "YOUR_API_KEY"
-watsonx_url = "https://REGION.ml.cloud.ibm.com"
-space_id = "YOUR_SPACE_ID"
-deployment_id = "YOUR_DEPLOYMENT_ID"
-- Run the agent
-python main.py
-- Launch the UI
-streamlit run app.py
-
-
-
 📊 Sample Use Cases
 - Farmer Query: “What’s the best time to irrigate my wheat crop this week?”
 - 🧠 Agent Response: “Based on upcoming rainfall and current soil moisture, irrigate on Thursday evening.”
@@ -77,41 +56,6 @@ streamlit run app.py
 - Farmer Query: “Should I sell my onions now or wait?”
 - 📈 Agent Response: “Prices expected to rise 12% next week in Delhi mandi. Consider holding for 5–7 days.”
 
-📁 Project Structure
-smart-farming-ai-agent/
-├── agents/
-│   ├── irrigation_advisor.py
-│   ├── pest_detector.py
-│   ├── market_predictor.py
-│   └── soil_analyzer.py
-├── config.toml
-├── main.py
-├── app.py
-├── data/
-│   ├── crop_profiles.json
-│   └── soil_samples.csv
-├── README.md
-└── requirements.txt
-
-
-
-🧪 Evaluation Metrics
-| Metric | Value | 
-| Irrigation Accuracy | 87% | 
-| Pest Detection Recall | 91% | 
-| Market Forecast MAE | ±6.3% | 
-| Farmer Satisfaction | 4.6/5 | 
-
-
-
-🗺️ Roadmap
-- [x] MVP with irrigation and pest modules
-- [x] Streamlit UI and voice assistant
-- [ ] Integration with WhatsApp chatbot
-- [ ] Crop yield prediction using satellite data
-- [ ] Offline mode for low-connectivity regions
-- [ ] Expand to 10+ Indian languages
-
 🏆 IBM Certifications
 - ✅ Getting Started with AI
 - ✅ Journey to Cloud
@@ -119,14 +63,11 @@ smart-farming-ai-agent/
 (Include Credly badge links or screenshots)
 
 🙋‍♂️ Author
-Aditya
-📧 aditya@example.com
-🌐 LinkedIn | Twitter
+Aditya Saini
+🌐 LinkedIn
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
-
-Would you like me to generate a badge-rich version with GitHub Actions, Docker build status, or add a demo video section?
